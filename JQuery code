@@ -1,0 +1,20 @@
+$(document).ready((() => {
+	$('.header-menu-nav-item a:contains("Accordion")').closest(".header-menu-nav-item").addClass("mobile-header-menu-accordion").append('<span class="header-menu-nav-item-displayer"></span>'), $('.header-menu-nav-item a:contains("Accordion")').contents().filter(((e, a) => 3 === a.nodeType && a.nodeValue.includes("Accordion"))).each(((e, a) => {
+		a.nodeValue = a.nodeValue.replace("Accordion", "")
+	})), $(".header-menu-nav-list").each((function() {
+		$(this).find('div[data-folder*="accordion"]').each((function() {
+			$(this).find(".mobile-header-menu-accordion").each((function(e) {
+				$(this).addClass("mv-header-menu-accordion-" + (e + 1)).addClass("mv-header-menu-accordion arrow-down")
+			}))
+		}))
+	})), $(".header-menu-nav-item-displayer").click((e => {
+		e.preventDefault(), $(e.currentTarget).closest(".mobile-header-menu-accordion").toggleClass("arrow-down")
+	})), $(".header-menu-controls-control").click((() => {
+		$(".mv-header-menu-accordion").addClass("arrow-down")
+	})), $(".mv-header-menu-accordion").each(((e, a) => {
+		var d = a.className.match(/mv-header-menu-accordion-(\d+)/)[1];
+		$(a).nextUntil(".mv-header-menu-accordion").addClass("header-child-accordion").addClass(`header-child-accordion-set-${d}`)
+	})), $('.header-menu-nav-folder[data-folder*="/mega-"]').find(".header-child-accordion").each(((e, a) => {
+		$(a).addClass(`header-child-accordion-${e+1}`)
+	}))
+}));
