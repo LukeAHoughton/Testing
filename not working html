@@ -1,0 +1,174 @@
+<div class="header-nav">
+  <div class="header-nav-wrapper">
+    <nav class="header-nav-list">
+      <div class="header-nav-item header-nav-item--folder header-nav-item-custom header-nav-item-1">
+        <a class="header-nav-folder-title" href="/menu-about" tabindex="-1" data-animation-role="header-element"> About </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external first-level-item-1" data-identification="1-1">
+            <a href="/about">History</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external first-level-item-2" data-identification="1-2">
+            <a href="/manifesto">Goals</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external first-level-item-3" data-identification="1-3">
+            <a href="/loco-blogs">Articles</a>
+          </div>
+        </div>
+      </div>
+      <span class="header-menu-splitter"></span>
+      <div class="header-nav-item header-nav-item--folder">
+        <a class="header-nav-folder-title" href="/1-1" tabindex="-1" data-animation-role="header-element"> History folder </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/about">Legacy</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/mission">Mission</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/social-feed">Social</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav-item header-nav-item--folder">
+        <a class="header-nav-folder-title" href="/1-2" tabindex="-1" data-animation-role="header-element"> Goals folder </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/manifesto">Manifesto</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav-item header-nav-item--folder">
+        <a class="header-nav-folder-title" href="/1-3" tabindex="-1" data-animation-role="header-element"> Articles folder </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/loco-blogs">Loco Blogs</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav-item header-nav-item--folder header-nav-item-custom header-nav-item-2">
+        <a class="header-nav-folder-title" href="/menu-people" tabindex="-1" data-animation-role="header-element"> People </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external first-level-item-1" data-identification="2-1">
+            <a href="/the-founders">Comrades</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external first-level-item-2" data-identification="2-2">
+            <a href="/memberships">Support</a>
+          </div>
+        </div>
+      </div>
+      <span class="header-menu-splitter"></span>
+      <div class="header-nav-item header-nav-item--folder">
+        <a class="header-nav-folder-title" href="/2-1" tabindex="-1" data-animation-role="header-element"> Comrades folder </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/the-founders">Founders</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/executive-committee">Committee</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav-item header-nav-item--folder">
+        <a class="header-nav-folder-title" href="/2-2" tabindex="-1" data-animation-role="header-element"> Support folder </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/our-members">Members</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/young-support">Youngsters</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/business-support">Business</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/community-support">Community</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav-item header-nav-item--folder header-nav-item-custom header-nav-item-3">
+        <a class="header-nav-folder-title" href="/menu-support" tabindex="-1" data-animation-role="header-element"> Support </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external first-level-item-1" data-identification="3-1">
+            <a href="/support">Action</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external first-level-item-2" data-identification="3-2">
+            <a href="/donate">Aid</a>
+          </div>
+        </div>
+      </div>
+      <span class="header-menu-splitter"></span>
+      <div class="header-nav-item header-nav-item--folder">
+        <a class="header-nav-folder-title" href="/3-1" tabindex="-1" data-animation-role="header-element"> Action folder </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/support">Help</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav-item header-nav-item--folder">
+        <a class="header-nav-folder-title" href="/3-2" tabindex="-1" data-animation-role="header-element"> Aid folder </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/donate">Donate</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/member-registration">Registration</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav-item header-nav-item--folder header-nav-item-custom header-nav-item-4">
+        <a class="header-nav-folder-title" href="/menu-connect" tabindex="-1" data-animation-role="header-element"> Connect </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external first-level-item-1" data-identification="4-1">
+            <a href="/contact">Communication</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external first-level-item-2" data-identification="4-2">
+            <a href="/announcements">Insights</a>
+          </div>
+        </div>
+      </div>
+      <span class="header-menu-splitter"></span>
+      <div class="header-nav-item header-nav-item--folder">
+        <a class="header-nav-folder-title" href="/4-1" tabindex="-1" data-animation-role="header-element"> Communication folder </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/contact">Contact</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/appointment">Appointment</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/work-with-us">Take Part</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/complaints">Complaints</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav-item header-nav-item--folder">
+        <a class="header-nav-folder-title" href="/4-2" tabindex="-1" data-animation-role="header-element"> Insights folder </a>
+        <div class="header-nav-folder-content">
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/announcements">Announcements</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/faqs">FAQs</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/local-map">Local Map</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/annual-schedule">Annual Schedule</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/clinic-sessions">Clinic Sessions</a>
+          </div>
+          <div class="header-nav-folder-item header-nav-folder-item--external">
+            <a href="/press">Press</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
