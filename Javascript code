@@ -1,0 +1,37 @@
+document.addEventListener("DOMContentLoaded", (function() {
+	document.querySelectorAll('.header-menu-nav-item a:contains("Accordion")').forEach((e => {
+		const c = e.closest(".header-menu-nav-item");
+		c.classList.add("mobile-header-menu-accordion"), c.innerHTML += '<span class="header-menu-nav-item-displayer"></span>'
+	})), document.querySelectorAll('.header-menu-nav-item a:contains("Accordion")').forEach((e => {
+		e.childNodes.forEach((e => {
+			3 === e.nodeType && e.nodeValue.includes("Accordion") && (e.nodeValue = e.nodeValue.replace("Accordion", ""))
+		}))
+	})), document.querySelectorAll(".header-menu-nav-list").forEach((function(e) {
+		e.querySelectorAll('div[data-folder*="accordion"]').forEach((function(e) {
+			e.querySelectorAll(".mobile-header-menu-accordion").forEach((function(e, c) {
+				e.classList.add("mv-header-menu-accordion-" + (c + 1)), e.classList.add("mv-header-menu-accordion"), e.classList.add("arrow-down")
+			}))
+		}))
+	})), document.querySelectorAll(".header-menu-nav-item-displayer").forEach((e => {
+		e.addEventListener("click", (e => {
+			e.preventDefault(), e.currentTarget.closest(".mobile-header-menu-accordion").classList.toggle("arrow-down")
+		}))
+	})), document.querySelectorAll(".header-menu-controls-control").forEach((e => {
+		e.addEventListener("click", (() => {
+			document.querySelectorAll(".mv-header-menu-accordion").forEach((e => {
+				e.classList.add("arrow-down")
+			}))
+		}))
+	})), document.querySelectorAll(".mv-header-menu-accordion").forEach(((e, c) => {
+		const o = e.className.match(/mv-header-menu-accordion-(\d+)/);
+		if (o) {
+			const c = o[1],
+				a = e.nextElementSibling;
+			for (; a && !a.classList.contains("mv-header-menu-accordion");) a.classList.add("header-child-accordion"), a.classList.add(`header-child-accordion-set-${c}`), a = a.nextElementSibling
+		}
+	})), document.querySelectorAll('.header-menu-nav-folder[data-folder*="/mega-"]').forEach((e => {
+		e.querySelectorAll(".header-child-accordion").forEach(((e, c) => {
+			e.classList.add(`header-child-accordion-${c+1}`)
+		}))
+	}))
+}));
